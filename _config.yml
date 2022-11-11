@@ -1,1 +1,10 @@
+title: 📄🧑🏻‍💻👨‍👩‍👦🏃‍♂️
+# email: nikola@applycolo.rs
+description: >
+  Nikola Paunovic - CV
+github_username: paunik
 
+# Build settings
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
