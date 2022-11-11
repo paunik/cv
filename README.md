@@ -26,6 +26,8 @@ Custom HR software that makes possible to match the personality profile of an ap
 **Senior software developer** @[HolyCode](https://www.holycode.rs/) _(Feb 2016 - Nov 2016)_
 As dedicated team for **Knip AG**, we developed custom CRM as backup for business model.
 Focused on automation of operation processes to reduce manpower in operations field and reduce human errors.
+
+- Clients facing Backend API's, integration with external services, NLP and clasifications.
 - **_Tech stack:_**: PHP(Symfony), React, AWS, Python(NLP, OCR), MySQL, Memcached, Docker, Kubernetes.
 
 **Software developer** @[Htec](https://htecgroup.com/) _(Feb 2015 - Feb 2016)_
