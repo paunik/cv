@@ -7,7 +7,7 @@ _Senior Software developer based in Berlin Germany_
 **Senior software developer team lead** @[Gaiali](https://get-yuno.com/) _(June 2021 - Present)_
 **Yuno**_(formerly Gaiali)_, general knowledge on the go through short audio stories.
 
-- Client and backoffice API's written in Swift using Vapor running on linux.
+- Client and back-office API's written in Swift using Vapor running on linux.
 - Application core and integrations with external services.
 - **_Tech stack:_** Swift, Vapor, TypeScript, React, Next, Python, AWS, Heroku, Redis, Postgres.
 
@@ -20,18 +20,18 @@ Building custom tailored CRM for Legal Tech, removing complexity from day to day
 **Senior software developer** Key4Talent GmbH _(Jan 2017 - May 2017)_
 Custom HR software that makes possible to match the personality profile of an applicant with a vacancy and come to an ideal personality to job match.
 
-- BE client facing services and backoffice API's and integration with the external services.
+- BE client facing services and back-office API's and integration with the external services.
 - **_Tech stack:_** PHP(Symfony), Ruby, AWS, Postgres.
 
 **Senior software developer** @[HolyCode](https://www.holycode.rs/) _(Feb 2016 - Nov 2016)_
 As dedicated team for **Knip AG**, we developed custom CRM as backup for business model.
 Focused on automation of operation processes to reduce manpower in operations field and reduce human errors.
 
-- Clients facing Backend API's, integration with external services, NLP and clasifications.
+- Clients facing Backend API's, integration with external services, NLP and classifications.
 - **_Tech stack:_** PHP(Symfony), React, AWS, Python(NLP, OCR), MySQL, Memcached, Docker, Kubernetes.
 
 **Software developer** @[Htec](https://htecgroup.com/) _(Feb 2015 - Feb 2016)_
-Outsorcing for multiple clients, work involved mostly of custom tailored CRMs.
+Outsourcing for multiple clients, work involved mostly of custom tailored CRMs.
 
 - **_Tech stack:_** PHP(Symfony), Docker, Kubernetes, MySQL, Mongo, Angular.
 
