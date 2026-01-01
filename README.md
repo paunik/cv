@@ -69,5 +69,5 @@ Outsourcing for multiple clients, work involved mostly of custom tailored CRMs.
 ## About & hobbies 👨‍👩‍👦
 
 - Proud father.
-- Passionate runner 🏃‍♂️.
+- Passionate runner 🏃‍♂️. [Why I’m building WeekPace](./running.md) · [WeekPace app](https://weekpace.com)
 - Reader and Spanish learner 🇪🇸.
