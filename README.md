@@ -1,21 +1,41 @@
 # Nikola Paunović's digital CV
 
-_Senior Software developer based in Berlin Germany_
+_Senior backend engineer & team lead based in Berlin, Germany_
+
+## About
+
+Senior backend engineer and team lead focused on data‑heavy consumer applications.  
+Comfortable owning systems end‑to‑end in small, fast‑moving teams, currently leading the backend for Yuno, a general‑knowledge audio learning app with 10‑minute stories and quizzes.  
+Core focus: reliable APIs, efficient data access, and shipping consistently. Deepening backend expertise (databases, queues, observability) and learning Go Lang.
 
 ## Experience 🧑🏻‍💻
 
-**Senior software developer team lead** @[Gaiali](https://get-yuno.com/) _(June 2021 - Present)_
-**Yuno**_(formerly Gaiali)_, general knowledge on the go through short audio stories.
+**Senior Software Developer Team Lead** @[Gaiali](https://get-yuno.com/) / Yuno _(June 2021 - Present · Berlin, Germany)_
 
-- Client and back-office API's written in Swift using Vapor running on linux.
-- Application core and integrations with external services.
-- **_Tech stack:_** Swift, Vapor, TypeScript, React, Next, Python, AWS, Heroku, Redis, Postgres.
+Yuno is a general-knowledge audio learning app with 10‑minute stories and quizzes.
 
-**Senior software developer** @[LegalOne GmbH](https://legal.one/) _(June2017 - May 2021)_
-Building custom tailored CRM for Legal Tech, removing complexity from day to day work of lawyer office employees.
+- Lead a backend team of 2–3 engineers building core features for Yuno.
+- Drive backend architecture decisions, balancing simplicity with scalability as the product grows.
+- Own and optimize a 400GB+ Postgres database: schema design, query tuning, and performance improvements for content and user data.
+- Use Redis for caching and async job processing, handling notifications and content pipelines.
+- Manage deployments and coordinate releases across backend, mobile, and frontend teams.
+- Collaborate with product to scope and plan features, balancing business needs with technical feasibility.
+- Maintain engineering quality through code reviews and team standards.
+- **_Tech stack:_** Swift, Vapor, Postgres, Redis, TypeScript, React, Next.js, Python, AWS, Heroku.
 
-- (Micro)Service oriented architecture, CQRS driven to provide easy scalability and test driven development.
-- **_Tech stack:_** PHP(Symfony), GoLang, Vue, Docker, AWS, Kubernetes, Elastic Stack, RabbitMQ, MySQL, Mongo, PHPUnit, Cypress.
+**Senior Software Developer** @[LegalOne GmbH](https://legal.one/) _(June 2017 - May 2021 · Berlin Metropolitan Area)_
+
+Built an in‑house, service‑oriented CRM (50+ microservices) to replace a legacy system for Germany’s traffic law market leader.
+
+- Developed services in PHP/Symfony and Go using CQRS patterns for clean read/write separation and scalability.
+- Built async workflows with RabbitMQ, event logs, and dead letter queues for reliable message processing.
+- Used Elasticsearch as a caching layer to speed up read‑heavy operations.
+- Developed and maintained shared libraries used across services.
+- Deployed services using Kubernetes and Helm Charts for controlled rollouts.
+- Contributed to engineering practices: code reviews, test coverage, and coding standards.
+- **_Tech stack:_** PHP (Symfony), Go, Vue, Docker, AWS, Kubernetes, Elastic Stack, RabbitMQ, MySQL, MongoDB, PHPUnit, Cypress.
+
+### Previous experience
 
 **Senior software developer** Key4Talent GmbH _(Jan 2017 - May 2017)_
 Custom HR software that makes possible to match the personality profile of an applicant with a vacancy and come to an ideal personality to job match.
