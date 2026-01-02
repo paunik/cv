@@ -22,7 +22,7 @@ Most apps that can create structured workouts and sync to Apple Watch had at lea
 - **Subscription walls**: You pay a monthly fee mainly for dashboards and analytics that go way beyond what a non‑pro actually uses.
 - **Overkill data**: Tons of charts and metrics, but all I really wanted was: “What exactly am I running today?”, “Did I do it?”, and “Can I easily create and see my full week/month ahead?”.
 
-I almost stopped developing my app when Apple released iOS 26 with a native workout builder. But it was missing the **calendar view** – no way to plan a full week or month ahead, drag sessions around, or see your entire schedule at a glance. [DC Rainmaker covered it well here](https://www.dcrainmaker.com/2025/09/apple-watch-workout-builder-ios26-watchos26.html).[attached_file:1] That gap actually reignited the project.
+I almost stopped developing my app when Apple released iOS 26 with a native workout builder. But it was missing the **calendar view** – no way to plan a full week or month ahead, drag sessions around, or see your entire schedule at a glance. [DC Rainmaker covered it well here](https://www.dcrainmaker.com/2025/09/apple-watch-workout-builder-ios26-watchos26.html). That gap actually reignited the project.
 
 I don’t need the full pro‑coach stack. I want to hit certain goals (like a marathon time), but I’m not trying to live like a professional athlete.
 
