@@ -48,7 +48,7 @@ The focus is on:
 
 - **Low friction**: Edit a session in seconds before going out the door.
 - **On‑device first**: No mandatory web app, no complex dashboards.
-- **Just enough data**: Pace, distance, heart rate, progress toward goals – without pretending you’re on a World Tour team.
+- **Just enough data**: Pace, distance, heart rate, progress toward goals.
 
 ## Try WeekPace
 
