@@ -52,7 +52,7 @@ The focus is on:
 
 ## Try WeekPace
 
-The app described on this page became **WeekPace** – a lightweight iOS and Apple Watch app for planning your training week and syncing structured workouts straight to your wrist.[file:1][file:2]
+The app described on this page became **WeekPace** – a lightweight iOS and Apple Watch app for planning your training week and syncing structured workouts straight to your wrist.
 
 - 🌐 Website: [weekpace.com](https://weekpace.com)
 - 📱 App Store: [WeekPace on the App Store](https://apps.apple.com/us/app/weekpace/id6756592413)
