@@ -1,6 +1,6 @@
 # Nikola Paunović's digital CV
 
-_Senior backend engineer and team lead with a focus on data-heavy consumer applications. I run a 400GB+ Postgres database and use Redis for caching and async job processing. At peaks served 12000 rpm._
+_Senior backend engineer and team lead with a focus on data-heavy consumer applications._
 
 ## About
 
