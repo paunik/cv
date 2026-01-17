@@ -14,7 +14,7 @@ Core focus: reliable APIs, efficient data access, and shipping consistently. Dee
 
 Yuno is a general-knowledge audio learning app with 10‑minute stories and quizzes.
 
-- Lead a backend team of 2–3 engineers building core features for Yuno.
+- Lead a backend team of 4 engineers building core features for Yuno.
 - Drive backend architecture decisions, balancing simplicity with scalability as the product grows.
 - Own and optimize a 400GB+ Postgres database: schema design, query tuning, and performance improvements for content and user data.
 - Use Redis for caching and async job processing, handling notifications and content pipelines.
@@ -68,6 +68,6 @@ Outsourcing for multiple clients, work involved mostly of custom tailored CRMs.
 
 ## About & hobbies 👨‍👩‍👦
 
-- Proud father.
+- Proud father of 2.
 - Passionate runner 🏃‍♂️. [Why I’m building WeekPace](./running.md) · [WeekPace app](https://weekpace.com)
 - Reader and Spanish learner 🇪🇸.
