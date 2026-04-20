@@ -1,73 +1,91 @@
-# Nikola Paunović's digital CV
+---
+layout: default
+title: "Nikola Paunović — CV"
+description: "Senior Backend Engineer · Berlin"
+---
 
-_Senior backend engineer and team lead with a focus on data-heavy consumer applications._
+# Nikola Paunović
 
-## About
+### Senior Backend Engineer & Team Lead
 
-Senior backend engineer and team lead focused on data‑heavy consumer applications.  
-Comfortable owning systems end‑to‑end in small, fast‑moving teams, currently leading the backend for Yuno, a general‑knowledge audio learning app with 10‑minute stories and quizzes.  
-Core focus: reliable APIs, efficient data access, and shipping consistently. Deepening backend expertise (databases, queues, observability) and learning Go Lang.
+Berlin, Germany · EU work authorization (German permanent residency) · German B1/B2
 
-## Experience 🧑🏻‍💻
+[nikola.paunovic1511@gmail.com](mailto:nikola.paunovic1511@gmail.com) · [LinkedIn](https://www.linkedin.com/in/nikola-paunović-np) · [GitHub](https://github.com/paunik) · [weekpace.com](https://weekpace.com)
 
-**Senior Software Developer Team Lead** @[Gaiali](https://get-yuno.com/) / Yuno _(June 2021 - Present · Berlin, Germany)_
+---
 
-Yuno is a general-knowledge audio learning app with 10‑minute stories and quizzes.
+## Summary
 
-- Lead a backend team of 4 engineers building core features for Yuno.
-- Drive backend architecture decisions, balancing simplicity with scalability as the product grows.
-- Own and optimize a 400GB+ Postgres database: schema design, query tuning, and performance improvements for content and user data.
-- Use Redis for caching and async job processing, handling notifications and content pipelines.
-- Manage deployments and coordinate releases across backend, mobile, and frontend teams.
-- Collaborate with product to scope and plan features, balancing business needs with technical feasibility.
-- Maintain engineering quality through code reviews and team standards.
-- **_Tech stack:_** Swift, Vapor, Postgres, Redis, TypeScript, React, Next.js, Python, AWS, Heroku.
+Backend engineer with 10+ years building and owning data-heavy consumer systems. Deep on Go and PostgreSQL at scale — recently cut a hot user-stats endpoint from ~20 s to sub-200 ms on a 400 GB+ database. Hands-on daily with Claude Code and agentic stacks (LangGraph, Mem0, pgvector).
 
-**Senior Software Developer** @[LegalOne GmbH](https://legal.one/) _(June 2017 - May 2021 · Berlin Metropolitan Area)_
+---
 
-Built an in‑house, service‑oriented CRM (50+ microservices) to replace a legacy system for Germany’s traffic law market leader.
+## Experience
 
-- Developed services in PHP/Symfony and Go using CQRS patterns for clean read/write separation and scalability.
-- Built async workflows with RabbitMQ, event logs, and dead letter queues for reliable message processing.
-- Used Elasticsearch as a caching layer to speed up read‑heavy operations.
-- Developed and maintained shared libraries used across services.
-- Deployed services using Kubernetes and Helm Charts for controlled rollouts.
-- Contributed to engineering practices: code reviews, test coverage, and coding standards.
-- **_Tech stack:_** PHP (Symfony), Go, Vue, Docker, AWS, Kubernetes, Elastic Stack, RabbitMQ, MySQL, MongoDB, PHPUnit, Cypress.
+### Senior Software Developer & Team Lead — [Gaiali](https://get-yuno.com/) / Yuno
+_June 2021 – Present · Berlin_
 
-### Previous experience
+General-knowledge audio learning app (10-minute stories and quizzes). 1M–10M downloads, 10k–30k monthly active users.
 
-**Senior software developer** Key4Talent GmbH _(Jan 2017 - May 2017)_
-Custom HR software that makes possible to match the personality profile of an applicant with a vacancy and come to an ideal personality to job match.
+- Cut user-stats endpoint p95 latency from **~20 s to under 200 ms** (100× improvement) through query redesign and targeted indexing on a 400 GB+ Postgres database.
+- Own end-to-end Postgres performance on the 400 GB+ database — schema design, query tuning, index strategy, vacuum/autovacuum — and set the conventions the rest of the team follows.
+- Drove the backend reliability work that brought on-call pages to under 1 per month, with clear escalation paths and runbooks for the services I own.
+- Designed Redis-backed async pipelines for notifications and content processing, handling 2M+ notifications per month; chose Redis over heavier queues to keep the stack simple for a small team.
+- Integrated Claude Code into my daily workflow; measurably faster feature delivery and cleaner diffs, and established the team patterns for AI-assisted development.
+- Mentored 4 engineers on Go, Postgres, and system design as the backend team grew from 2 to 4; run architecture reviews and code reviews as the final technical owner.
+- Prototyping agentic features with LangGraph, Mem0, and pgvector to extend product capabilities into adaptive learning.
 
-- BE client facing services and back-office API's and integration with the external services.
-- **_Tech stack:_** PHP(Symfony), Ruby, AWS, Postgres.
+**Stack:** Go, Vapor (Swift), Postgres, Redis, TypeScript, React, Next.js, Python, AWS, Heroku.
 
-**Senior software developer** @[HolyCode](https://www.holycode.rs/) _(Feb 2016 - Nov 2016)_
-As dedicated team for **Knip AG**, we developed custom CRM as backup for business model.
-Focused on automation of operation processes to reduce manpower in operations field and reduce human errors.
+### Senior Software Developer — [LegalOne GmbH](https://legal.one/)
+_June 2017 – May 2021 · Berlin_
 
-- Clients facing Backend API's, integration with external services, NLP and classifications.
-- **_Tech stack:_** PHP(Symfony), React, AWS, Python(NLP, OCR), MySQL, Memcached, Docker, Kubernetes.
+German traffic-law SaaS, 50+ microservices.
 
-**Software developer** @[Htec](https://htecgroup.com/) _(Feb 2015 - Feb 2016)_
-Outsourcing for multiple clients, work involved mostly of custom tailored CRMs.
+- Shipped and owned 7+ production Go services; used CQRS to let read and write paths scale and evolve independently.
+- Wrote services test-first with Gherkin-style specs and automated end-to-end tests, making behavioural intent explicit and catching regressions before deploy.
+- Built async workflows in RabbitMQ — event logs, retries, and dead-letter queues — so downstream services recovered cleanly when producers failed.
+- Used Elasticsearch as a read-side cache to take pressure off the write-path databases for read-heavy screens.
+- Delivered across Go and PHP/Symfony side by side, owning features end-to-end; deployed on Kubernetes with Helm.
 
-- **_Tech stack:_** PHP(Symfony), Docker, Kubernetes, MySQL, Mongo, Angular.
+**Stack:** Go, PHP (Symfony), Vue, Docker, Kubernetes, AWS, Elastic Stack, RabbitMQ, MySQL, MongoDB.
 
-## Languages 🇷🇸, 🇺🇸, 🇩🇪
+### Senior Software Developer — [HolyCode](https://www.holycode.rs/) (Knip AG, insurance)
+_February 2016 – November 2016_
 
-- **Serbian 🇷🇸**: Native
-- **English 🇺🇸**: Fluent
-- **German 🇩🇪**: B1 (vielleicht B2)
+- Built a custom CRM with NLP/OCR pipelines that automated insurance-document intake and cut manual data entry for the operations team.
+- Delivered client-facing backend APIs and external-service integrations for the core insurance workflow.
 
+**Stack:** PHP (Symfony), React, Python (NLP/OCR), MySQL, Memcached, Docker, Kubernetes, AWS.
 
-## Education 🎓
+### Software Developer — [Htec](https://htecgroup.com/)
+_February 2015 – February 2016_
 
-- [VISER](https://www.viser.edu.rs/?userLanguage=eng) Belgrade, Serbia. Bachelor's Degree, Computer Science _(2006-2009)_
+- Delivered custom CRM solutions for multiple clients in an outsourced model; PHP/Symfony, Angular, Docker, Kubernetes, MySQL, MongoDB.
 
-## About & hobbies 👨‍👩‍👦
+---
 
-- Proud father of 2.
-- Passionate runner 🏃‍♂️. [Why I’m building WeekPace](./running.md) · [WeekPace app](https://weekpace.com)
-- Reader and Spanish learner 🇪🇸.
+## Side Projects
+
+### [WeekPace](https://weekpace.com)
+
+- Shipped a privacy-first Apple Watch running app in Swift; live on the App Store as a solo side project.
+- Building a running-coach agent on top (LangGraph, Mem0, pgvector on FastAPI) — testbed for the memory, retrieval, and tool-calling patterns I'm bringing into day-job work.
+- [Why I'm building WeekPace](./running.html)
+
+---
+
+## Technical Skills
+
+- **Languages:** Go (production), Swift, PHP, TypeScript, Python
+- **Databases:** PostgreSQL (advanced), Redis, MySQL, MongoDB, Elasticsearch
+- **AI & Agentic:** Claude Code (daily), LangGraph, Mem0, pgvector, FastAPI, RAG
+- **Infra & Cloud:** AWS, Kubernetes, Docker, Helm, Heroku
+- **Messaging:** RabbitMQ, event-driven / CQRS patterns
+- **Practices:** Microservices, CQRS, REST, gRPC, CI/CD, observability
+
+---
+
+## Education
+
+**Bachelor's Degree, Computer Science** — [VISER](https://www.viser.edu.rs/?userLanguage=eng), Belgrade, Serbia · 2006 – 2009
