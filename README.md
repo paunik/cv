@@ -1,9 +1,3 @@
----
-layout: default
-title: "Nikola Paunović — CV"
-description: "Senior Backend Engineer · Berlin"
----
-
 # Nikola Paunović
 
 ### Senior Backend Engineer & Team Lead
